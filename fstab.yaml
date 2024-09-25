@@ -3,3 +3,8 @@ mountpoints:
 
 folders:
   /products/: /products/default
+
+  # Generate everything below /categories/ with the "default-category"
+  # Note the trailing slash here, which differentiates this from the above example 
+  # and applies the mapping only inside the categories folder
+  /categories/: /categories/default-category
